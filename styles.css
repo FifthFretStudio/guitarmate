@@ -170,6 +170,24 @@ footer {
     color: white;
 }
 
+/* Content Sections */
+.content-section {
+    padding: 2rem 3rem;
+    margin-left: 3rem;
+}
+
+/* Content Links */
+a {
+    color: #4da6ff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #66b3ff;
+    text-decoration: underline;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .main-content {
