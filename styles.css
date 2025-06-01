@@ -26,6 +26,18 @@ body {
     position: relative;
     margin: 0;
     padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
 }
 
 .left-column, .right-column {
@@ -151,15 +163,31 @@ body {
 }
 
 
+.button-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 2rem 0 0 0;
+    flex-wrap: wrap;
+}
+
 .app-store-button {
     display: block;
-    margin: 2rem 0 0 0;
     transition: transform 0.2s ease;
-    width: 180px;
 }
 
 .app-store-button:hover {
     transform: scale(1.05);
+}
+
+.app-store-button img {
+    height: 60px;
+    width: auto;
+}
+
+.app-store-button:first-child img {
+    width: 180px;
+    height: auto;
 }
 
 /* Footer */
@@ -168,6 +196,13 @@ footer {
     padding: 1rem;
     background-color: var(--primary-color);
     color: white;
+    margin-top: auto;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-links {
