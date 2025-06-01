@@ -87,8 +87,15 @@ footer {
 }
 
 .logo {
-    height: 60px;
+    height: 65px;
     width: auto;
+}
+
+.brand-text {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
 }
 
 .brand-text h1 {
@@ -97,9 +104,14 @@ footer {
 }
 
 .brand-text p {
-    margin: 0.25rem 0 0;
+    margin: 0;
     font-size: 1rem;
     color: rgba(255,255,255,0.8);
+}
+
+.brand-text:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-links {
